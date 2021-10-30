@@ -11,7 +11,7 @@ I Gde Ardha Semaranatha Gunasatwika (05311940000034) <br>
 
 ### 6. Setelah itu terdapat subdomain mecha.franky.yyy.com dengan alias www.mecha.franky.yyy.com yang didelegasikan dari EniesLobby ke Water7 dengan IP menuju ke Skypie dalam folder sunnygo
 
-***Server EniesLobby***
+**Server EniesLobby**
 Melakukan konfigurasi pada `/etc/bind/kaizoku/kaizoku.com`
 ```
 ;
@@ -152,7 +152,7 @@ Dokumentasi hasil
 
 ### 9. Setelah itu, Luffy juga membutuhkan agar url www.franky.yyy.com/index.php/home dapat menjadi menjadi www.franky.yyy.com/home
 
-***Server Skypie***
+***Server Skypie*** 
 Memberikan Alias pada `/etc/apache2/sites-available/franky.T10.com.conf`
 ```
 <VirtualHost *:80>
