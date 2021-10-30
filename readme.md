@@ -202,7 +202,7 @@ Melakukan konfigurasi pada `/etc/apache2/sites-available/super.franky.T10.com`
 
 Membuat direktori untuk file konten pada `/var/www`
 ```
-wget https://github.com/FeinardSlim/Praktikum-Modul-2-Jarkom/raw/main/super.fra$
+wget https://github.com/FeinardSlim/Praktikum-Modul-2-Jarkom/raw/main/super.franky.zip
 unzip super.franky.zip
 mkdir super.franky.T10.com
 mv super.franky/* super.franky.T10.com
