@@ -57,6 +57,6 @@ www     IN      CNAME   mecha.franky.T10.com.
 
 Dokumentasi hasil
 
-<img src="hasil/6.png">
+<img src="https://github.com/KevinNath01/Jarkom-Modul-2-T10-2021/blob/main/SS%20Hasil/6.png">
 
 ### 7. Untuk memperlancar komunikasi Luffy dan rekannya, dibuatkan subdomain melalui Water7 dengan nama general.mecha.franky.yyy.com dengan alias www.general.mecha.franky.yyy.com yang mengarah ke Skypie
