@@ -11,7 +11,7 @@ I Gde Ardha Semaranatha Gunasatwika (05311940000034) <br>
 
 ### 6. Setelah itu terdapat subdomain mecha.franky.yyy.com dengan alias www.mecha.franky.yyy.com yang didelegasikan dari EniesLobby ke Water7 dengan IP menuju ke Skypie dalam folder sunnygo
 
-**Server EniesLobby**
+**Server EniesLobby** <br>
 Melakukan konfigurasi pada `/etc/bind/kaizoku/kaizoku.com`
 ```
 ;
@@ -43,7 +43,7 @@ zone "franky.T10.com" {
 };
 ```
 
-***Server Water7***
+***Server Water7*** <br>
 Melakukan konfigurasi pada `/etc/bind/named.conf.options`
 ```
 options {
@@ -119,7 +119,7 @@ Dokumentasi hasil
 
 ### 8. Setelah melakukan konfigurasi server, maka dilakukan konfigurasi Webserver. Pertama dengan webserver www.franky.yyy.com. Pertama, luffy membutuhkan webserver dengan DocumentRoot pada /var/www/franky.yyy.com
 
-***Server Skypie***
+***Server Skypie*** <br>
 Melakukan konfigurasi pada `/etc/apache2/sites-available/franky.T10.com.conf`
 ```
 <VirtualHost *:80>
@@ -152,7 +152,7 @@ Dokumentasi hasil
 
 ### 9. Setelah itu, Luffy juga membutuhkan agar url www.franky.yyy.com/index.php/home dapat menjadi menjadi www.franky.yyy.com/home
 
-***Server Skypie*** 
+***Server Skypie***  <br>
 Memberikan Alias pada `/etc/apache2/sites-available/franky.T10.com.conf`
 ```
 <VirtualHost *:80>
@@ -176,7 +176,7 @@ Dokumentasi hasil
 
 ### 10. Setelah itu, pada subdomain www.super.franky.yyy.com, Luffy membutuhkan penyimpanan aset yang memiliki DocumentRoot pada /var/www/super.franky.yyy.com
 
-***Server Skypie***
+***Server Skypie*** <br>
 Melakukan konfigurasi pada `/etc/apache2/sites-available/super.franky.T10.com`
 ```
 <VirtualHost *:80>
